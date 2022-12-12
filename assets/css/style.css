@@ -11,7 +11,6 @@ h1 {
   display: inline;
   align-items: center;
   margin-left: 2vw;
-  font-weight: bolder;
 }
 
 p {
@@ -68,6 +67,23 @@ p {
 
 .nav-link {
   margin-right: 1.5vw;
+}
+
+.code-font {
+  background-color: #eee;
+  border: 1px solid #999;
+  color: black;
+  padding: 3px;
+  font-weight: bolder;
+}
+
+.draw-font {
+  font-family: "Charmonman";
+}
+
+.numbers {
+  color: rosybrown;
+  font-style: italic;
 }
 
 body {
