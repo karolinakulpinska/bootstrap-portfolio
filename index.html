@@ -28,10 +28,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark customNav" style="background-color: rgb(15, 15, 15);">
 
       <a class="navbar-brand" href="#">
-        <img src="./assets/images/profile-photo.JPG">
-        <h1>Hi, I'm Karolina. I love to <span class="code-font">{code}</span> and <span class="draw-font">draw.</span>
-        </h1>
+        <img src="./assets/images/profile-photo.JPG" >
       </a>
+      <h1>Hi, I'm Karolina. I love to <a href="#web"><span class="code-font">{code}</span></a> and <a href="#art" style="text-decoration: none;"><span class="draw-font">draw.</span></a>
+      </h1>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,6 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           
-          <!-- /needs links to sections/ -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -50,15 +49,15 @@
             </a>
             <!-- Dropdown  -->
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Web</a>
-              <a class="dropdown-item" href="#">Art</a>
+              <a class="dropdown-item" href="#web">Web</a>
+              <a class="dropdown-item" href="#art">Art</a>
             </div>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"><span class="numbers">02.&nbsp;</span>About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about"><span class="numbers">02.&nbsp;</span>About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><span class="numbers">03.&nbsp;</span>Contact</a>
+            <a class="nav-link" href="#contact"><span class="numbers">03.&nbsp;</span>Contact</a>
           </li>
         </ul>
       </div>
@@ -76,49 +75,74 @@
     </div>
   </div>
 
+  <!-- Web portfolio container -->
+  <h3 id="web">Web</h3>
+
   <div class="container-fluid">
+
+    <!-- Web - first row -->
     <div class="row">
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/1_card.png" class="card-img-top" alt="...">
+      <div class="cardContainer col">
+        <div class="card text-white bg-dark mb-3">
+          <img src="./assets/images/eat-sleep-code-repeat.jpg" class="card-img-top" alt="Phone with a text on the screen: Eat. Sleep. Code. Repeat" title="Prework Study Guide">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Prework Study Guide</h5>
+            <p class="card-text">This Prework Study Guide Webpage was created so that I and other bootcamp students can easily find and read the information on the topics I have learned during Bootcamp Prework. It contains notes on HTML, CSS, Git and JavaScript.</p>
+            <a href="https://karolinakulpinska.github.io/prework-study-guide/" target="_blank" class="btn btn-dark">Have a look!</a>
           </div>
         </div>
       </div>
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/2_card.png" class="card-img-top" alt="...">
+      <div class="cardContainer col">
+        <div class="card text-white bg-dark mb-3">
+          <img src="./assets/images/coffee.jpg" class="card-img-top" alt="Opened laptop, cup of coffee on a desk" title="Horiseon Webpage Refactor">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Horiseon Webpage Refactor</h5>
+            <p class="card-text">This Bootcamp week, my job was to improve the Horiseon website's accessibility by rewriting the code.</p>
+            <a href="https://karolinakulpinska.github.io/horiseon-webpage/" target="_blank" class="btn btn-dark">Have a look!</a>
           </div>
         </div>
       </div>
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/3_card.png" class="card-img-top" alt="...">
+    </div>
+
+    <!-- Web - second row -->
+    <div class="row">
+      <div class="cardContainer col">
+        <div class="card text-white bg-dark mb-3">
+          <img src="./assets/images/laptop.jpg" class="card-img-top" alt="Opened laptop sitting on a desk" title="wip">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Web Project 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, quidem optio nisi facere, perferendis inventore ducimus quasi ex odit voluptates quos in quis ratione esse. Temporibus soluta accusantium vitae. Labore?</p>
+            <a href="https://github.com/karolinakulpinska" target="_blank" class="btn btn-dark">Have a look!</a>
           </div>
         </div>
       </div>
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/4_card.png" class="card-img-top" alt="...">
+      <div class="cardContainer col">
+        <div class="card text-white bg-dark mb-3">
+          <img src="./assets/images/keyboard.jpg" class="card-img-top" alt="Colorfully backlit keyboard" title="wip">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Web Project 4</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nihil iste illo ipsam deserunt, nobis, error modi iure odio perferendis provident dolorum eius sint aperiam quos et unde totam cumque!</p>
+            <a href="https://github.com/karolinakulpinska" target="_blank" class="btn btn-dark">Have a look!</a>
+          </div>
+        </div>
+      </div>
+      <div class="cardContainer col">
+        <div class="card text-white bg-dark mb-3">
+          <img src="./assets/images/nasa.jpg" class="card-img-top" alt="Planet Earth as seen from Space" title="wip">
+          <div class="card-body">
+            <h5 class="card-title">Web Project 5</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempora hic maiores, perspiciatis magni, atque sequi numquam dolore placeat, esse veniam adipisci. At atque magnam tenetur perspiciatis corrupti excepturi facilis?</p>
+            <a href="https://github.com/karolinakulpinska" target="_blank" class="btn btn-dark">Have a look!</a>
+          </div>
+        </div>
+      </div>
+      <div class="cardContainer col">
+        <div class="card text-white bg-dark mb-3">
+          <img src="./assets/images/open-laptop.jpg" class="card-img-top" alt="Opened laptop in a dark room" title="wip">
+          <div class="card-body">
+            <h5 class="card-title">Web Project 6</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt enim numquam! Laboriosam dolore libero, est expedita enim architecto iusto, assumenda quis odit facere natus culpa ducimus illum, ad nostrum!</p>
+            <a href="https://github.com/karolinakulpinska" target="_blank" class="btn btn-dark">Have a look!</a>
           </div>
         </div>
       </div>

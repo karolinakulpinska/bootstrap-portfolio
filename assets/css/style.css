@@ -5,12 +5,36 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #181818 !important;
+}
+
 h1 {
   font-size: 1rem;
   font-family: 'Courier New', Courier, monospace;
   display: inline;
   align-items: center;
   margin-left: 2vw;
+  margin-bottom: 0 !important;
+  color: white;
+  align-items: center;
+}
+
+h2 {
+  color: rosybrown;
+  font-weight: bold !important;
+}
+
+h3 {
+  color: rosybrown;
+  margin: 3vmax;
+  font-size: 2vmax;
+  text-align: center;
+  font-weight: bold;
 }
 
 p {
@@ -35,8 +59,8 @@ p {
   border-radius: 50%;
   border: 0.1vmax solid rosybrown;
   filter: drop-shadow(0 0 1vmax rosybrown);
-  width: 3.5vmax;
-  height: 3.5vmax;
+  width: 4vmax;
+  height: 4vmax;
   align-items: center;
   margin-left: 2vmax;
 }
@@ -86,14 +110,6 @@ p {
   font-style: italic;
 }
 
-body {
-  font-family: 'Courier New', Courier, monospace;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  background-color: #181818 !important;
-}
-
 /* Jumbotron */
 .jumbotron,
 .laptopBackground {
@@ -125,6 +141,18 @@ body {
 .card {
   margin: 0 auto;
 }
+
+
+.btn {
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: rosybrown;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 6px black;
+}
+
 
 /* Signup form */
 .signUp form {
