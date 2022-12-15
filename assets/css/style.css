@@ -160,6 +160,10 @@ p {
   font-size: 4vh;
 }
 
+.italic-book-titles {
+  font-style: italic;
+}
+
 /* Signup form */
 .signUp form {
   margin: 35px auto;
