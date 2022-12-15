@@ -32,9 +32,6 @@ h2 {
 h3 {
   color: rosybrown;
   margin: 3vmax;
-  font-size: 2vmax;
-  text-align: center;
-  font-weight: bold;
 }
 
 p {
@@ -157,6 +154,11 @@ p {
   box-shadow: 0 3px 6px black;
 }
 
+.section-titles {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vh;
+}
 
 /* Signup form */
 .signUp form {
@@ -181,7 +183,7 @@ footer {
 /* Xx-Small devices */
 @media screen and (max-width: 360px) {
   .display-4 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .lead {
     font-size: 14px;
@@ -201,19 +203,22 @@ footer {
 /* Small devices */
 @media screen and (min-width: 576px) {
   .display-4 {
-    font-size: 50px;
+    font-size: 25px;
   }
   .lead {
-    font-size: 22px;
+    font-size: 15px;
   }
 }
 
 /* Medium devices */
 @media screen and (min-width: 768px) {
   .display-4 {
-    font-size: 56px;
+    font-size: 30px;
   }
   .lead {
-    font-size: 28px;
+    font-size: 20px;
+  }
+  .h3 {
+    font-size: 15px;
   }
 }
